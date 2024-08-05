@@ -1,0 +1,54 @@
+{
+  "name": "IngameStudio Testing",
+  "tree": {
+    "$className": "DataModel",
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "IngameStudio": {
+          "$path": "src",
+
+          "Packages": {
+            "$path": "Packages"
+          }
+        },
+        
+        "$path": "test"
+      }
+    },
+
+    "Workspace": {
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "CFrame": [0, -4, 0,
+            1, 0, 0,
+            0, 1, 0,
+            0, 0, 1],
+          "Size": [2048, 8, 2048],
+          "Color": {"Color3uint8": [91, 91, 91]},
+          "Anchored": true
+        },
+
+        "Texture": {
+          "$className": "Texture",
+          "$properties": {
+            "Texture": "rbxassetid://6372755229",
+            "Face": "Top",
+            "Color3": [0, 0, 0],
+            "StudsPerTileU": 8,
+            "StudsPerTileV": 8,
+            "Transparency": 0.8
+          }
+        }
+      }
+    },
+    "Lighting": { "$properties": {
+        "Brightness": 1.5,
+        "Technology": "Future",
+        "EnvironmentDiffuseScale": 1,
+        "EnvironmentSpecularScale": 1
+    } },
+    "MaterialService": { "$properties": { "Use2022Materials": true } }
+  }
+}

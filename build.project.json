@@ -1,0 +1,9 @@
+{
+  "name": "IngameStudio-package",
+  "tree": {
+    "$path": "src",
+    "Packages": {
+        "$path": "Packages"
+    }
+  }
+}

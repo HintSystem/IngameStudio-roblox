@@ -1,0 +1,22 @@
+# Plugin source contains big packages, commit .rbxm file instead
+test/Plugins
+
+# Project build files
+/*.rbxl
+/*.rbxlx
+/*.rbxm
+/*.rbxmx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+sourcemap.json
+
+# Wally managed packages
+Packages
+
+wally-package-types.exe
+
+studiocomponents/
+assets/*.svg
