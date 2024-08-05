@@ -12,17 +12,17 @@ This project consists of two main components:
 1. **[IngameStudio](src)**: Implementation for UI elements, using [React Lua](https://github.com/jsdotlua/react-lua) and  [StudioComponents](https://github.com/sircfenner/StudioComponents/tree/main).
 2. **[PluginProxy](src/PluginProxy/)**: Implements Studio-specific services, classes, functions and enums required for plugins.
 
-Additionally, this repo includes `CreateStudioTextureAtlas.py`, a Python script for creating icon atlases, which combine the icons from the `studio_svg_textures` folder found in your Roblox installation. This script outputs multiple images and .txt files which are then used in the [icons module](src/PluginProxy/Icons/init.luau) for loading Studio icons.
+Additionally, this repo includes [CreateStudioTextureAtlas.py](CreateStudioTextureAtlas.py), a Python script for creating icon atlases, which combine the icons from the `studio_svg_textures` folder found in your Roblox installation. This script outputs multiple images and .txt files which are then used in the [Icons module](src/PluginProxy/Icons/init.luau) for loading Studio icons.
 
 > [!IMPORTANT]
-> Roblox Studio plugins are not directly compatible with **PluginProxy**. Most classes and services need to be replaced with custom ones from the PluginProxy module. A separate repo, `PluginProxy-Transpiler-roblox`, automates this conversion process, though some manual edits may be required.
+> Roblox Studio plugins are not directly compatible with **PluginProxy**. Most classes and services need to be replaced with custom ones from the PluginProxy module. A separate repo, [PluginProxy-Transpiler-roblox](https://github.com/HintSystem/PluginProxy-Transpiler-roblox?tab=readme-ov-file), automates this conversion process, though some manual edits may be required.
 
 ## Installation
 
-1. Download the latest `IngameStudio.rbxm` module from the releases tab.
+1. Download the latest `IngameStudio.rbxm` module from [releases](https://github.com/HintSystem/IngameStudio-roblox/releases).
 2. Drop it in an easily accessible location, such as ReplicatedStorage.
 
-For usage examples, download the latest test place `IngameStudio Testing.rbxl` from the releases tab. The implementation can be found in StarterPlayerScripts.
+For usage examples, download the latest test place `IngameStudio Testing.rbxl` from [releases](https://github.com/HintSystem/IngameStudio-roblox/releases). The implementation can be found in StarterPlayerScripts.
 
 ## Development setup
 
