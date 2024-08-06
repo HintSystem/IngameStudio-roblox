@@ -1,6 +1,7 @@
 --!strict
 
 local Selection = {}
+
 local Highlight = require(script.Parent.Parent.HighlightManager).new()
 Highlight.OutlineColor = Color3.fromRGB(32, 110, 226)
 Highlight.FillTransparency = 1

@@ -64,6 +64,11 @@ end
 
 local InputService = game:GetService('UserInputService')
 local Mouse = game:GetService('Players').LocalPlayer:GetMouse()
+local Selection = require(script.Parent.Services.Selection)
+
+Selection.SelectionChanged:Connect(function()
+    callToolImpl.SelectionChanged(Selection:Get())
+end)
 
 InputService.InputBegan:Connect(function(input, gameProcessed)
     callToolImpl.InputBegan(input, gameProcessed)
