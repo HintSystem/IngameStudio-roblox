@@ -5,15 +5,17 @@
 
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "IngameStudio": {
-          "$path": "src",
-
-          "Packages": {
-            "$path": "Packages"
-          }
-        },
-        
         "$path": "test"
+      }
+    },
+
+    "ReplicatedStorage": {
+      "IngameStudio": {
+        "$path": "src",
+
+        "Packages": {
+          "$path": "Packages"
+        }
       }
     },
 

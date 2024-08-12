@@ -39,7 +39,9 @@ end
 
 function ThemeInstance.public:GetClassIcon(className: string, size: Icons.Size?, scale: number?)
 	local icon = Icons.InsertableObjects:Get(className, self.Name, size, scale)
-	if not icon then error(`Class icon '{className}' does not exist`, 2) end
+	if not icon then
+		return Icons.Other:Get('Placeholder', size, scale)
+	end
 
 	return icon
 end

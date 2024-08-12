@@ -69,9 +69,12 @@ local Implementation = require(script.Parent.Interface.Implementation)
 DockWidget.Interface = nil :: Implementation.internal<DockWidget>?
 
 type UID = string | number
-type DockWidget = typeof(setmetatable({}, {} :: typeof({ __index = DockWidget.public }))) & {
-    Title: string,
+type DockWidget = typeof(setmetatable({} :: {
+    Gui: ScreenGui,
+    Content: Frame,
     Info: DockWidgetPluginGuiInfo,
+}, {} :: typeof({ __index = DockWidget.public }))) & {
+    Title: string,
     HostWidgetWasRestored: false,
     Enabled: boolean,
     ResetOnSpawn: boolean,
@@ -80,24 +83,36 @@ type DockWidget = typeof(setmetatable({}, {} :: typeof({ __index = DockWidget.pu
 
 local ScreenGuiProps = {Enabled = true, ResetOnSpawn = true, ZIndexBehaviour = true}
 
-local guiFolder
-local function getGuiFolder()
-    if not guiFolder then
-        guiFolder = Instance.new("ScreenGui") -- Don't use a folder because they get deleted on respawn
-        guiFolder.Name = "PluginGUIs"
-        guiFolder.ResetOnSpawn = false
-        guiFolder.Parent = game:GetService('Players').LocalPlayer.PlayerGui
+local guiContainer -- Set by DockWidget.SetParentGui()
+local defaultGuiContainer -- Created by this class
+local function getGuiContainer()
+    if not guiContainer and not defaultGuiContainer then
+        defaultGuiContainer = Instance.new("ScreenGui")
+        defaultGuiContainer.Name = "PluginProxy_Widgets"
+        defaultGuiContainer.ResetOnSpawn = false
+        defaultGuiContainer.Parent = game:GetService('Players').LocalPlayer.PlayerGui
     end
-    return guiFolder
+    return guiContainer or defaultGuiContainer
+end
+
+--- Sets the parent gui for all DockWidgets
+function DockWidget.SetParentGui(gui: LayerCollector)
+    if gui == nil then error("Can't set DockWidget container to nil") end
+    if defaultGuiContainer then defaultGuiContainer:Destroy() end
+    guiContainer = gui
+
+    for _, Widget: DockWidget in DockWidget.Interface.InstanceList do
+        Widget.Gui.Parent = gui
+    end
 end
 
 function DockWidget.new(plugin, UID: UID, DockWidgetInfo: WidgetPluginGuiInfo): DockWidget
     local gui = Instance.new("ScreenGui")
-    gui.Name = UID
+    gui.Name = `p_{UID}`
     gui.Enabled = DockWidgetInfo.initEnabled
     gui.ResetOnSpawn = false
     gui.DisplayOrder = 150
-    gui.Parent = getGuiFolder()
+    gui.Parent = getGuiContainer()
 
     local contentFrame = Instance.new("Frame")
     contentFrame.Name = "PluginGuiContent"

@@ -4,7 +4,8 @@ local React = require(script.Parent.Parent.Packages.react)
 local Common = require(script.Parent.Parent.Components.Common)
 
 type LabelStyleGuide = {
-    TextColor: Common.StudioStyleGuideColor?
+    TextColor: Common.StudioStyleGuideColor?,
+	Modifier: Common.StudioStyleGuideModifier?
 }
 
 return function(props: {
@@ -22,13 +23,13 @@ return function(props: {
 } & Common.CommonProps)
 	local theme = Common.useTheme()
 
-	local modifier = theme.StudioStyleGuideModifier.Default
+	local StyleGuide: LabelStyleGuide = props.StyleGuide or {}
+	local style = StyleGuide.TextColor or theme.StudioStyleGuideColor.MainText
+	local modifier = StyleGuide.Modifier or theme.StudioStyleGuideModifier.Default
+
 	if props.Disabled then
 		modifier = theme.StudioStyleGuideModifier.Disabled
 	end
-
-    local StyleGuide: LabelStyleGuide = props.StyleGuide or {}
-	local style = StyleGuide.TextColor or theme.StudioStyleGuideColor.MainText
 
 	return React.createElement("TextLabel", {
 		AnchorPoint = props.AnchorPoint,

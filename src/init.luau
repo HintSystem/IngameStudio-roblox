@@ -1,5 +1,9 @@
 local IngameStudio = {}
 
+if game:GetService('RunService'):IsServer() then
+    error('IngameStudio can only be required from the client')
+end
+
 local ReactRoblox = require(script.Packages["react-roblox"])
 
 local PluginProxy = require(script.PluginProxy)
@@ -11,7 +15,7 @@ local Root = nil
 local function createRoot()
     if not ScreenGui then
         ScreenGui = Instance.new('ScreenGui')
-        ScreenGui.Name = 'In-game Studio'
+        ScreenGui.Name = 'Ingame Studio'
         ScreenGui.ResetOnSpawn = false
         ScreenGui.IgnoreGuiInset = true
         ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling

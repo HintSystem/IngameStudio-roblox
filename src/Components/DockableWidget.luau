@@ -104,16 +104,21 @@ return function(props: {
     Size: Vector2?,
     Position: Vector2?,
     CornerRadius: UDim?
-})
+} & React.ElementProps<Frame>)
     local theme = Common.useTheme()
 
+    local Title = props.Title
+    if Title == "" then Title = nil end
+
     local Enabled = props.Enabled == nil and true or props.Enabled
+
     local minSize = props.minSize or Vector2.new(60, 65)
     local Size = (props.Size or Vector2.new(150, 200)):Max(minSize)
     local Position = props.Position or Vector2.new(200, 140)
     local CornerRadius = props.CornerRadius or UDim.new(0, 6)
 
     local contentContainerRef = React.useRef(nil)
+    local floatingWidgetRef = React.useRef(nil)
 
     -- Parent Instance content to contentContainer
     React.useEffect(function()
@@ -178,8 +183,14 @@ return function(props: {
 
         local isDown = Input.UserInputState == Enum.UserInputState.Begin
         if isDown and not isResizable then
-            local Frame = TitleBar:FindFirstAncestor('FloatingWidget')
-            local PosDelta = Frame.AbsolutePosition - UserInputService:GetMouseLocation()
+            local Frame = floatingWidgetRef.current
+            if not Frame then return end
+
+            local insetOffsetY = 0 
+            local screenGui = Frame:FindFirstAncestorWhichIsA('LayerCollector')
+            if screenGui then insetOffsetY = screenGui.AbsolutePosition.Y end
+            
+            local PosDelta = Vector2.new(Frame.AbsolutePosition.X, Frame.AbsolutePosition.Y - insetOffsetY) - UserInputService:GetMouseLocation()
 
             useMouse(function(Input)
                 if Input.UserInputType == Enum.UserInputType.MouseMovement then
@@ -235,9 +246,9 @@ return function(props: {
         }, {
             UICorner(),
             BottomCover(TitleBarColor),
-            Title = props.Title and React.createElement(Label, {
+            Title = Title and React.createElement(Label, {
                 ZIndex = 2,
-                Text = props.Title or "",
+                Text = Title,
                 StyleGuide = { TextColor = theme.StudioStyleGuideColor.TitlebarText }
             }),
             CloseButton = React.createElement(BaseButton, {
@@ -264,13 +275,14 @@ return function(props: {
             Position = UDim2.new(0.5, 0, 1, -outlinePad),
             AnchorPoint = Vector2.new(0.5, 1),
             BackgroundColor3 = theme:GetColor(theme.StudioStyleGuideColor.MainBackground),
+            BorderSizePixel = 0,
             ClipsDescendants = true
-        }, { UICorner() })
+        }, props.children)
     })
 
     -- Pad window for bigger resize area
     Window = React.createElement('Frame', {
-        key = 'FloatingWidget',
+        ref = floatingWidgetRef,
         Active = true,
         BackgroundTransparency = 1,
 

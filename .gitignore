@@ -1,5 +1,5 @@
 # Plugin source contains big packages, commit .rbxm file instead
-test/Plugins
+/test/Plugins
 
 # Project build files
 /*.rbxl
@@ -11,12 +11,11 @@ test/Plugins
 /*.rbxlx.lock
 /*.rbxl.lock
 
-sourcemap.json
+/sourcemap.json
 
 # Wally managed packages
-Packages
-
+/Packages
 wally-package-types.exe
 
-studiocomponents/
-assets/*.svg
+/studiocomponents/
+/assets/*.svg

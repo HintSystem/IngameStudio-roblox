@@ -263,9 +263,14 @@ end
 
 --- Sets an anchor point without changing the frame's absolute position, returns the new anchor point's position
 function Common.setAbsoluteAnchor(Frame: GuiObject, newAnchor: Vector2): Vector2
+    -- Offset is used when the GUI's IgnoreGuiInset is set to true, in that case if this offset isnt accounted for then the window will float when dragged
+    local insetOffsetY = 0 
+    local screenGui = Frame:FindFirstAncestorWhichIsA('LayerCollector')
+    if screenGui then insetOffsetY = screenGui.AbsolutePosition.Y end
+
     local absoluteAnchorPos = Vector2.new(
         math.ceil(Frame.AbsolutePosition.X + (newAnchor.X * Frame.AbsoluteSize.X)),
-        math.ceil(Frame.AbsolutePosition.Y + (newAnchor.Y * Frame.AbsoluteSize.Y))
+        math.ceil((Frame.AbsolutePosition.Y - insetOffsetY) + (newAnchor.Y * Frame.AbsoluteSize.Y))
     )
 
     Frame.Position = UDim2.fromOffset(absoluteAnchorPos.X, absoluteAnchorPos.Y)

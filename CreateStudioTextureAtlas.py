@@ -185,13 +185,13 @@ class ImageAtlasCreator:
 
 
 def main():
-    out_path = Path("C:/Users/HintSystem/Desktop/StudioAtlas")
-    texture_path = Path("C:/Users/HintSystem/AppData/Local/Roblox/Versions/version-258fa44b42074cfc/content/studio_svg_textures")
+    out_path = Path("enter_your_export_path_here")
+    texture_path = Path("latest_roblox_version_path_here/content/studio_svg_textures")
 
     if not out_path.is_dir():
         raise ValueError("Please enter the correct path for outputting the atlas")
     if not texture_path.is_dir():
-        raise ValueError("Please enter the correct path for your roblox studio texture path")
+        raise ValueError("Please enter the correct path for your Roblox Studio studio_svg_textures path")
     
     # Atlas order must contain only half of the true amount of images, because the other half is the other theme variant
     
