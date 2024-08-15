@@ -19,3 +19,4 @@ wally-package-types.exe
 
 /studiocomponents/
 /assets/*.svg
+/util/TypeSearch.py

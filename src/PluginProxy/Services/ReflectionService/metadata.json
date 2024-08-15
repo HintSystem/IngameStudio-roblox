@@ -1,0 +1,1313 @@
+{
+  "Actor": {
+    "ClassCategory": "Scripting",
+    "ExplorerOrder": 10
+  },
+  "BindableFunction": {
+    "ClassCategory": "Scripting",
+    "ExplorerOrder": 40
+  },
+  "BindableEvent": {
+    "ClassCategory": "Scripting",
+    "ExplorerOrder": 50
+  },
+  "TouchTransmitter": {
+    "ExplorerOrder": 30
+  },
+  "ForceField": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 30,
+    "PreferredParent": "Model"
+  },
+  "Plugin": {
+    "ExplorerOrder": 30
+  },
+  "Glue": {
+    "PreferredParent": "BasePart"
+  },
+  "Hat": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 30
+  },
+  "Accessory": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 30,
+    "PreferredParent": "Model"
+  },
+  "Attachment": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "PVInstance"
+  },
+  "WrapTarget": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 32,
+    "PreferredParent": "BasePart"
+  },
+  "WrapDeformer": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 32,
+    "PreferredParent": "BasePart"
+  },
+  "WrapLayer": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 32,
+    "PreferredParent": "BasePart"
+  },
+  "Bone": {
+    "ClassCategory": "Animations",
+    "ExplorerOrder": 30,
+    "PreferredParent": "PVInstance"
+  },
+  "Constraint": {
+    "ClassCategory": "Physics",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "BallSocketConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "RopeConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "RodConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "SpringConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "TorsionSpringConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "WeldConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "PVInstance"
+  },
+  "NoCollisionConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "PVInstance"
+  },
+  "RigidConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "PVInstance"
+  },
+  "HingeConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "UniversalConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "SlidingBallConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "PrismaticConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "CylindricalConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "AlignOrientation": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "AlignPosition": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "AnimationConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "VectorForce": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "Model"
+  },
+  "LineForce": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "Torque": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "AngularVelocity": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "PlaneConstraint": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "PluginCapabilities": {
+    "ExplorerOrder": 30
+  },
+  "Plane": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "LinearVelocity": {
+    "ClassCategory": "Constraints",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "RotateP": {
+    "PreferredParent": "BasePart"
+  },
+  "RotateV": {
+    "PreferredParent": "BasePart"
+  },
+  "VelocityMotor": {
+    "PreferredParent": "BasePart"
+  },
+  "Weld": {
+    "ExplorerOrder": 200,
+    "PreferredParent": "BasePart"
+  },
+  "Snap": {
+    "ExplorerOrder": 200,
+    "PreferredParent": "BasePart"
+  },
+  "FileMesh": {
+    "PreferredParent": "BasePart"
+  },
+  "EditableMesh": {
+    "PreferredParent": "BasePart"
+  },
+  "ClickDetector": {
+    "ClassCategory": "3D Interfaces",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "DragDetector": {
+    "ClassCategory": "3D Interfaces",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "UIDragDetector": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 30,
+    "PreferredParent": "GuiBase2d"
+  },
+  "ProximityPrompt": {
+    "ClassCategory": "3D Interfaces",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "Clothing": {
+    "ExplorerOrder": 20
+  },
+  "Smoke": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "Trail": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 30,
+    "PreferredParent": "Model"
+  },
+  "AdGui": {
+    "ClassCategory": "Ads",
+    "ExplorerOrder": 200,
+    "PreferredParent": "GuiBase2d"
+  },
+  "AdPortal": {
+    "ClassCategory": "Ads",
+    "ExplorerOrder": 200,
+    "PreferredParent": "Part"
+  },
+  "Beam": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "SurfaceAppearance": {
+    "ClassCategory": "3D Interfaces",
+    "ExplorerOrder": 40
+  },
+  "ParticleEmitter": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "Sparkles": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "Explosion": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "Fire": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "Seat": {
+    "ClassCategory": "Interaction",
+    "ExplorerOrder": 30
+  },
+  "Platform": {
+    "ExplorerOrder": 30
+  },
+  "SkateboardPlatform": {
+    "ExplorerOrder": 30
+  },
+  "VehicleSeat": {
+    "ClassCategory": "Interaction",
+    "ExplorerOrder": 30,
+    "PreferredParent": "Model"
+  },
+  "Tool": {
+    "ClassCategory": "Interaction",
+    "ExplorerOrder": 30,
+    "PreferredParent": "StarterPack"
+  },
+  "Flag": {
+    "ExplorerOrder": 30
+  },
+  "FlagStand": {
+    "ExplorerOrder": 30
+  },
+  "BackpackItem": {
+    "ExplorerOrder": 20
+  },
+  "Decal": {
+    "ClassCategory": "3D Interfaces",
+    "ExplorerOrder": 40,
+    "PreferredParent": "BasePart"
+  },
+  "JointInstance": {
+    "ExplorerOrder": 200
+  },
+  "Message": {
+    "ExplorerOrder": 110,
+    "PreferredParent": "StarterGui"
+  },
+  "Hint": {
+    "ExplorerOrder": 110
+  },
+  "IntValue": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "RayValue": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "IntConstrainedValue": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "DoubleConstrainedValue": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "BoolValue": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "CustomEvent": {
+    "ExplorerOrder": 30
+  },
+  "CustomEventReceiver": {
+    "ExplorerOrder": 30
+  },
+  "FloorWire": {
+    "ExplorerOrder": 30
+  },
+  "NumberValue": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "StringValue": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "Vector3Value": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "CFrameValue": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "Color3Value": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "BrickColorValue": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "ValueBase": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "ObjectValue": {
+    "ClassCategory": "Values",
+    "ExplorerOrder": 30
+  },
+  "SpecialMesh": {
+    "ClassCategory": "Meshes",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "BlockMesh": {
+    "ClassCategory": "Meshes",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "CylinderMesh": {
+    "ClassCategory": "Meshes",
+    "ExplorerOrder": 30,
+    "PreferredParent": "BasePart"
+  },
+  "BevelMesh": {
+    "ClassCategory": "Meshes"
+  },
+  "Texture": {
+    "ClassCategory": "3D Interfaces",
+    "ExplorerOrder": 40,
+    "PreferredParent": "BasePart"
+  },
+  "Sound": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "Wire": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioPlayer": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioEmitter": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioListener": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioDeviceInput": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioDeviceOutput": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioChorus": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioDistortion": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioFlanger": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioReverb": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioEcho": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioEqualizer": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioFader": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioFilter": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioAnalyzer": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioPitchShifter": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "AudioCompressor": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 10
+  },
+  "EchoSoundEffect": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Sound"
+  },
+  "FlangeSoundEffect": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Sound"
+  },
+  "DistortionSoundEffect": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Sound"
+  },
+  "PitchShiftSoundEffect": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Sound"
+  },
+  "ChannelSelectorSoundEffect": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Sound"
+  },
+  "ChorusSoundEffect": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Sound"
+  },
+  "TremoloSoundEffect": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Sound"
+  },
+  "ReverbSoundEffect": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Sound"
+  },
+  "EqualizerSoundEffect": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Sound"
+  },
+  "CompressorSoundEffect": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Sound"
+  },
+  "SoundGroup": {
+    "ClassCategory": "Sounds",
+    "ExplorerOrder": 20,
+    "PreferredParent": "SoundService"
+  },
+  "StockSound": {
+    "ExplorerOrder": -1
+  },
+  "SoundService": {
+    "ExplorerOrder": 500
+  },
+  "Backpack": {
+    "ExplorerOrder": 30
+  },
+  "StarterPack": {
+    "ExplorerOrder": 30
+  },
+  "StarterPlayer": {
+    "ExplorerOrder": 30
+  },
+  "StarterGear": {
+    "ExplorerOrder": 30
+  },
+  "CoreGui": {
+    "ExplorerOrder": 30
+  },
+  "CorePackages": {
+    "ExplorerOrder": 30
+  },
+  "RobloxPluginGuiService": {
+    "ExplorerOrder": 30
+  },
+  "PluginGuiService": {
+    "ExplorerOrder": 30
+  },
+  "PluginDebugService": {
+    "ExplorerOrder": 30
+  },
+  "UIGridStyleLayout": {
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UIListLayout": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UIGridLayout": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UIPageLayout": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UITableLayout": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UISizeConstraint": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UITextSizeConstraint": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UIAspectRatioConstraint": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI"
+  },
+  "UIScale": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UIPadding": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UIGradient": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UICorner": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "UIStroke": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "Path2D": {
+    "ExplorerOrder": 31,
+    "ClassCategory": "GUI",
+    "PreferredParent": "GuiBase2d"
+  },
+  "StarterGui": {
+    "ExplorerOrder": 30
+  },
+  "Chat": {
+    "ExplorerOrder": 510
+  },
+  "ChatService": {
+    "ExplorerOrder": 510
+  },
+  "TextChatService": {
+    "ClassCategory": "Text Chat",
+    "ExplorerOrder": 511
+  },
+  "ChatWindowConfiguration": {
+    "ClassCategory": "Text Chat",
+    "ExplorerOrder": 10
+  },
+  "ChatInputBarConfiguration": {
+    "ClassCategory": "Text Chat",
+    "ExplorerOrder": 11
+  },
+  "BubbleChatConfiguration": {
+    "ClassCategory": "Text Chat",
+    "ExplorerOrder": 12
+  },
+  "TextChannel": {
+    "ClassCategory": "Text Chat",
+    "ExplorerOrder": 13,
+    "PreferredParent": "TextChatService"
+  },
+  "TextSource": {
+    "ClassCategory": "Text Chat",
+    "ExplorerOrder": 10,
+    "PreferredParent": "TextChannel"
+  },
+  "TextChatCommand": {
+    "ClassCategory": "Text Chat",
+    "ExplorerOrder": 14,
+    "PreferredParent": "TextChatService"
+  },
+  "VoiceChatService": {
+    "ExplorerOrder": 520
+  },
+  "LocalizationTable": {
+    "ExplorerOrder": 30,
+    "ClassCategory": "Localization"
+  },
+  "LocalizationService": {
+    "ExplorerOrder": 530
+  },
+  "Atmosphere": {
+    "ClassCategory": "Environment",
+    "ExplorerOrder": 5,
+    "PreferredParent": "Lighting"
+  },
+  "Clouds": {
+    "ClassCategory": "Environment",
+    "ExplorerOrder": 5,
+    "PreferredParent": "Workspace"
+  },
+  "MaterialVariant": {
+    "ClassCategory": "3D Interfaces",
+    "ExplorerOrder": 41
+  },
+  "TerrainDetail": {
+    "ClassCategory": "3D Interfaces",
+    "ExplorerOrder": 42
+  },
+  "MaterialService": {
+    "ExplorerOrder": 30
+  },
+  "Sky": {
+    "ClassCategory": "Environment",
+    "ExplorerOrder": 5,
+    "PreferredParent": "Lighting"
+  },
+  "ColorCorrectionEffect": {
+    "ClassCategory": "Post Processing Effects",
+    "ExplorerOrder": 20
+  },
+  "ColorGradingEffect": {
+    "ClassCategory": "Post Processing Effects",
+    "ExplorerOrder": 20
+  },
+  "BloomEffect": {
+    "ClassCategory": "Post Processing Effects",
+    "ExplorerOrder": 20
+  },
+  "BlurEffect": {
+    "ClassCategory": "Post Processing Effects",
+    "ExplorerOrder": 20
+  },
+  "Highlight": {
+    "ClassCategory": "Effects",
+    "ExplorerOrder": 20
+  },
+  "DepthOfFieldEffect": {
+    "ClassCategory": "Post Processing Effects",
+    "ExplorerOrder": 20
+  },
+  "SunRaysEffect": {
+    "ClassCategory": "Post Processing Effects",
+    "ExplorerOrder": 20
+  },
+  "Motor": {
+    "ExplorerOrder": 20,
+    "PreferredParent": "BasePart"
+  },
+  "ControllerPartSensor": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20,
+    "PreferredParent": "BasePart"
+  },
+  "BuoyancySensor": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20,
+    "PreferredParent": "BasePart"
+  },
+  "AtmosphereSensor": {
+    "ClassCategory": "Sensors",
+    "ExplorerOrder": 20,
+    "PreferredParent": "BasePart"
+  },
+  "ControllerManager": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20
+  },
+  "GroundController": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20,
+    "PreferredParent": "ControllerManager"
+  },
+  "AirController": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20,
+    "PreferredParent": "ControllerManager"
+  },
+  "ClimbController": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20,
+    "PreferredParent": "ControllerManager"
+  },
+  "SwimController": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20,
+    "PreferredParent": "ControllerManager"
+  },
+  "Humanoid": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 30,
+    "PreferredParent": "Model"
+  },
+  "BodyColors": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Model"
+  },
+  "Shirt": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Model"
+  },
+  "Pants": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Model"
+  },
+  "ShirtGraphic": {
+    "ClassCategory": "Avatar",
+    "ExplorerOrder": 20,
+    "PreferredParent": "Model"
+  },
+  "Skin": {
+    "ExplorerOrder": 20
+  },
+  "DebugSettings": {
+    "ExplorerOrder": 20
+  },
+  "GameSettings": {
+    "ExplorerOrder": 20
+  },
+  "GlobalSettings": {
+    "ExplorerOrder": 20
+  },
+  "Item": {
+    "ExplorerOrder": 20
+  },
+  "NetworkSettings": {
+    "ExplorerOrder": 20
+  },
+  "PackageLink": {
+    "ExplorerOrder": 1
+  },
+  "RenderSettings": {
+    "ExplorerOrder": 20
+  },
+  "Hopper": {
+    "ExplorerOrder": 20
+  },
+  "BodyGyro": {
+    "ClassCategory": "Legacy Body Movers",
+    "ExplorerOrder": 140,
+    "PreferredParent": "BasePart"
+  },
+  "BodyPosition": {
+    "ClassCategory": "Legacy Body Movers",
+    "ExplorerOrder": 140,
+    "PreferredParent": "BasePart"
+  },
+  "RocketPropulsion": {
+    "ClassCategory": "Legacy Body Movers",
+    "ExplorerOrder": 140,
+    "PreferredParent": "BasePart"
+  },
+  "BodyVelocity": {
+    "ClassCategory": "Legacy Body Movers",
+    "ExplorerOrder": 140,
+    "PreferredParent": "BasePart"
+  },
+  "BodyAngularVelocity": {
+    "ClassCategory": "Legacy Body Movers",
+    "ExplorerOrder": 140,
+    "PreferredParent": "BasePart"
+  },
+  "BodyForce": {
+    "ClassCategory": "Legacy Body Movers",
+    "ExplorerOrder": 140,
+    "PreferredParent": "BasePart"
+  },
+  "BodyThrust": {
+    "ClassCategory": "Legacy Body Movers",
+    "ExplorerOrder": 140,
+    "PreferredParent": "BasePart"
+  },
+  "Hole": {
+    "ExplorerOrder": 20
+  },
+  "Feature": {
+    "ExplorerOrder": 20
+  },
+  "Teams": {
+    "ExplorerOrder": 140,
+    "PreferredParent": "Teams"
+  },
+  "Team": {
+    "ClassCategory": "Interaction",
+    "ExplorerOrder": 10,
+    "PreferredParent": "Teams"
+  },
+  "SpawnLocation": {
+    "ClassCategory": "Interaction",
+    "ExplorerOrder": 30
+  },
+  "NetworkClient": {
+    "ExplorerOrder": 30
+  },
+  "NetworkServer": {
+    "ExplorerOrder": 30
+  },
+  "Script": {
+    "ClassCategory": "Scripting",
+    "ExplorerOrder": 30
+  },
+  "LocalScript": {
+    "ClassCategory": "Scripting",
+    "ExplorerOrder": 40
+  },
+  "RenderingTest": {
+    "ClassCategory": "Scripting",
+    "ExplorerOrder": 40
+  },
+  "NetworkReplicator": {
+    "ExplorerOrder": 30
+  },
+  "Model": {
+    "ExplorerOrder": 100,
+    "PreferredParent": "PVInstance"
+  },
+  "Status": {
+    "ExplorerOrder": 100
+  },
+  "GlobalDataStore": {
+    "ExplorerOrder": -1
+  },
+  "OrderedDataStore": {
+    "ExplorerOrder": -1
+  },
+  "HopperBin": {
+    "ExplorerOrder": 240
+  },
+  "Camera": {
+    "ExplorerOrder": 5,
+    "PreferredParent": "Model"
+  },
+  "Players": {
+    "ExplorerOrder": 20
+  },
+  "ReplicatedStorage": {
+    "ExplorerOrder": 30
+  },
+  "ReplicatedFirst": {
+    "ExplorerOrder": 30
+  },
+  "ServerStorage": {
+    "ExplorerOrder": 30
+  },
+  "ServerScriptService": {
+    "ExplorerOrder": 30
+  },
+  "Lighting": {
+    "ExplorerOrder": 30
+  },
+  "TestService": {
+    "ExplorerOrder": 1000
+  },
+  "VRService": {
+    "ExplorerOrder": 1000
+  },
+  "Accoutrement": {
+    "ExplorerOrder": 20
+  },
+  "Player": {
+    "ExplorerOrder": 10
+  },
+  "Workspace": {
+    "ExplorerOrder": 5
+  },
+  "BasePart": {
+    "ExplorerOrder": 3
+  },
+  "Part": {
+    "ClassCategory": "Parts",
+    "ExplorerOrder": 110,
+    "PreferredParent": "Workspace"
+  },
+  "TrussPart": {
+    "ClassCategory": "Parts",
+    "ExplorerOrder": 120,
+    "PreferredParent": "Model"
+  },
+  "WedgePart": {
+    "ClassCategory": "Parts",
+    "ExplorerOrder": 120,
+    "PreferredParent": "Model"
+  },
+  "PrismPart": {
+    "ExplorerOrder": 120
+  },
+  "PyramidPart": {
+    "ExplorerOrder": 120
+  },
+  "ParallelRampPart": {
+    "ExplorerOrder": 120
+  },
+  "RightAngleRampPart": {
+    "ExplorerOrder": 120
+  },
+  "CornerWedgePart": {
+    "ClassCategory": "Parts",
+    "ExplorerOrder": 120,
+    "PreferredParent": "Workspace"
+  },
+  "PlayerGui": {
+    "ExplorerOrder": 130
+  },
+  "PlayerScripts": {
+    "ExplorerOrder": 130
+  },
+  "StandalonePluginScripts": {
+    "ExplorerOrder": 130
+  },
+  "StarterPlayerScripts": {
+    "ExplorerOrder": 130
+  },
+  "StarterCharacterScripts": {
+    "ExplorerOrder": 130
+  },
+  "GuiMain": {
+    "ExplorerOrder": 140
+  },
+  "UIFlexItem": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 130,
+    "PreferredParent": "GuiObject"
+  },
+  "ScreenGui": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 140,
+    "PreferredParent": "BasePlayerGui"
+  },
+  "FunctionalTest": {
+    "ExplorerOrder": 10
+  },
+  "BillboardGui": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 140,
+    "PreferredParent": "GuiBase2d"
+  },
+  "SurfaceGuiBase": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 140,
+    "PreferredParent": "GuiBase2d"
+  },
+  "SurfaceGui": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 140,
+    "PreferredParent": "GuiBase2d"
+  },
+  "Frame": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 150,
+    "PreferredParent": "GuiBase2d"
+  },
+  "ScrollingFrame": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 150,
+    "PreferredParent": "GuiBase2d"
+  },
+  "ImageLabel": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 180,
+    "PreferredParent": "GuiBase2d"
+  },
+  "VideoFrame": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 18,
+    "PreferredParent": "GuiBase2d"
+  },
+  "CanvasGroup": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 200,
+    "PreferredParent": "GuiBase2d"
+  },
+  "TextLabel": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 190,
+    "PreferredParent": "GuiBase2d"
+  },
+  "TextButton": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 170,
+    "PreferredParent": "GuiBase2d"
+  },
+  "TextBox": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 170,
+    "PreferredParent": "GuiBase2d"
+  },
+  "GuiButton": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 160
+  },
+  "ViewportFrame": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 30,
+    "PreferredParent": "GuiBase2d"
+  },
+  "ImageButton": {
+    "ClassCategory": "GUI",
+    "ExplorerOrder": 160,
+    "PreferredParent": "GuiBase2d"
+  },
+  "StyleBase": {
+    "ClassCategory": "Styling",
+    "ExplorerOrder": 200
+  },
+  "StyleSheet": {
+    "ClassCategory": "Styling",
+    "ExplorerOrder": 200
+  },
+  "StyleRule": {
+    "ClassCategory": "Styling",
+    "PreferredParent": "StyleSheet",
+    "ExplorerOrder": 200
+  },
+  "StyleLink": {
+    "ClassCategory": "Styling",
+    "ExplorerOrder": 200
+  },
+  "StyleDerive": {
+    "ClassCategory": "Styling",
+    "PreferredParent": "StyleSheet",
+    "ExplorerOrder": 200
+  },
+  "Handles": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 190
+  },
+  "ArcHandles": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 200
+  },
+  "SelectionBox": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 210
+  },
+  "SelectionSphere": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 210
+  },
+  "SurfaceSelection": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 210
+  },
+  "PathfindingModifier": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 210
+  },
+  "PathfindingLink": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 210
+  },
+  "Configuration": {
+    "ExplorerOrder": 220
+  },
+  "HumanoidDescription": {
+    "ExplorerOrder": 22
+  },
+  "BodyPartDescription": {
+    "ExplorerOrder": 22
+  },
+  "AccessoryDescription": {
+    "ExplorerOrder": 22
+  },
+  "Folder": {
+    "ExplorerOrder": 10
+  },
+  "WorldModel": {
+    "ClassCategory": "World",
+    "ExplorerOrder": 22
+  },
+  "Motor6D": {
+    "ClassCategory": "Animations",
+    "ExplorerOrder": 200
+  },
+  "BoxHandleAdornment": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 205
+  },
+  "ConeHandleAdornment": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 205
+  },
+  "CylinderHandleAdornment": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 205
+  },
+  "SphereHandleAdornment": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 205
+  },
+  "WireframeHandleAdornment": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 205
+  },
+  "LineHandleAdornment": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 205
+  },
+  "ImageHandleAdornment": {
+    "ClassCategory": "Adornments",
+    "ExplorerOrder": 205
+  },
+  "SelectionPartLasso": {
+    "ExplorerOrder": 220
+  },
+  "SelectionPointLasso": {
+    "ExplorerOrder": 220
+  },
+  "PartPairLasso": {
+    "ExplorerOrder": 220
+  },
+  "PoseBase": {
+    "ExplorerOrder": 220
+  },
+  "Pose": {
+    "ExplorerOrder": 220
+  },
+  "NumberPose": {
+    "ExplorerOrder": 220
+  },
+  "KeyframeMarker": {
+    "ExplorerOrder": 220
+  },
+  "Keyframe": {
+    "ExplorerOrder": 220
+  },
+  "Animation": {
+    "ClassCategory": "Animations",
+    "ExplorerOrder": 220
+  },
+  "AnimationTrack": {
+    "ExplorerOrder": 220
+  },
+  "AnimationController": {
+    "ClassCategory": "Animations",
+    "ExplorerOrder": 220
+  },
+  "Animator": {
+    "ClassCategory": "Animations",
+    "ExplorerOrder": 220
+  },
+  "IKControl": {
+    "ClassCategory": "Animations",
+    "ExplorerOrder": 220
+  },
+  "FaceControls": {
+    "ClassCategory": "Animations",
+    "ExplorerOrder": 105,
+    "PreferredParent": "MeshPart"
+  },
+  "CharacterMesh": {
+    "ClassCategory": "Meshes",
+    "ExplorerOrder": 220,
+    "PreferredParent": "Model"
+  },
+  "Dialog": {
+    "ClassCategory": "3D Interfaces",
+    "ExplorerOrder": 220
+  },
+  "DialogChoice": {
+    "ClassCategory": "3D Interfaces",
+    "ExplorerOrder": 220
+  },
+  "UnionOperation": {
+    "ExplorerOrder": 105
+  },
+  "NegateOperation": {
+    "ExplorerOrder": 104
+  },
+  "MeshPart": {
+    "ClassCategory": "Parts",
+    "ExplorerOrder": 105,
+    "PreferredParent": "Model"
+  },
+  "Terrain": {
+    "ExplorerOrder": 5
+  },
+  "Light": {
+    "ClassCategory": "Lights",
+    "ExplorerOrder": 30,
+    "PreferredParent": "PVInstance"
+  },
+  "PointLight": {
+    "ClassCategory": "Lights",
+    "ExplorerOrder": 30,
+    "PreferredParent": "PVInstance"
+  },
+  "SpotLight": {
+    "ClassCategory": "Lights",
+    "ExplorerOrder": 30,
+    "PreferredParent": "PVInstance"
+  },
+  "SurfaceLight": {
+    "ClassCategory": "Lights",
+    "ExplorerOrder": 30,
+    "PreferredParent": "PVInstance"
+  },
+  "RemoteFunction": {
+    "ClassCategory": "Scripting",
+    "ExplorerOrder": 40
+  },
+  "RemoteEvent": {
+    "ClassCategory": "Scripting",
+    "ExplorerOrder": 50
+  },
+  "UnreliableRemoteEvent": {
+    "ClassCategory": "Scripting",
+    "ExplorerOrder": 51
+  },
+  "TerrainRegion": {
+    "ExplorerOrder": 20
+  },
+  "ModuleScript": {
+    "ClassCategory": "Scripting",
+    "ExplorerOrder": 50
+  }
+}

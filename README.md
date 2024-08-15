@@ -12,10 +12,13 @@ This project consists of two main components:
 1. **[IngameStudio](src)**: Implementation for UI elements, using [React Lua](https://github.com/jsdotlua/react-lua) and  [StudioComponents](https://github.com/sircfenner/StudioComponents/tree/main).
 2. **[PluginProxy](src/PluginProxy/)**: Implements Studio-specific services, classes, functions and enums required for plugins.
 
-Additionally, this repo includes [CreateStudioTextureAtlas.py](CreateStudioTextureAtlas.py), a Python script for creating icon atlases, which combine the icons from the `studio_svg_textures` folder found in your Roblox installation. This script outputs multiple images and .txt files which are then used in the [Icons module](src/PluginProxy/Icons/init.luau) for loading Studio icons.
+Additionally, this repo includes these scripts: 
+
+* [CreateStudioTextureAtlas.py](util/CreateStudioTextureAtlas.py), Creates atlases used in the [Icons module](src/PluginProxy/Icons/init.luau) for loading Studio icons. Icons are taken from the `studio_svg_textures` folder in the Roblox installation. Also produces a .txt file containing each icon's name and corresponding ID.
+* [GenerateReflectionMetadata.py](util/GenerateReflectionMetadata.py), Generates a metadata.json, required for [ReflectionService](src/PluginProxy/Services/ReflectionService/init.luau). Contains missing details from database.json, sourced from the [rbx_dom repo](https://github.com/rojo-rbx/rbx-dom/tree/master/rbx_dom_lua)
 
 > [!IMPORTANT]
-> Roblox Studio plugins are not directly compatible with **PluginProxy**. Most classes and services need to be replaced with custom ones from the PluginProxy module. A separate repo, [PluginProxy-Transpiler-roblox](https://github.com/HintSystem/PluginProxy-Transpiler-roblox?tab=readme-ov-file), automates this conversion process, though some manual edits may be required.
+> Roblox Studio plugins are not directly compatible with **PluginProxy**. Most classes and services need to be replaced with custom ones from the PluginProxy module. [PluginProxy-Transpiler-roblox](https://github.com/HintSystem/PluginProxy-Transpiler-roblox?tab=readme-ov-file) automates this conversion process, though some manual edits may be required.
 
 ## Installation
 
